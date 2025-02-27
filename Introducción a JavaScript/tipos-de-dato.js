@@ -26,12 +26,10 @@ let ejemplo1 = NaN; // Not a Number, pero tipo number
 let ejemplo2 = [1, 2, 3]; // Array (es un objeto en JavaScript)
 let ejemplo3 = { clave: "valor" }; // Objeto literal
 let ejemplo4 = function () {}; // Función
-let ejemplo5 = Symbol("id"); // Símbolo único
-let ejemplo6 = BigInt(12345678901234567890); // BigInt para números grandes
+
 
 console.log(`Variable ejemplo1 (NaN) es un tipo de dato ${typeof ejemplo1}`); // number
 console.log(`Variable ejemplo2 ([1, 2, 3]) es un tipo de dato ${typeof ejemplo2}`); // object
 console.log(`Variable ejemplo3 ({ clave: "valor" }) es un tipo de dato ${typeof ejemplo3}`); // object
 console.log(`Variable ejemplo4 (function) es un tipo de dato ${typeof ejemplo4}`); // function
-console.log(`Variable ejemplo5 (Symbol) es un tipo de dato ${typeof ejemplo5}`); // symbol
-console.log(`Variable ejemplo6 (BigInt) es un tipo de dato ${typeof ejemplo6}`); // bigint
+
